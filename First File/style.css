@@ -1,0 +1,33 @@
+
+body {
+  background-color: beige;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: verdana;
+}
+
+h1 {
+  color: cornflowerblue;
+}
+
+article {
+  background-color: ghostwhite;
+  }
+
+p {
+  color: white;
+  background-color: darkgoldenrod;
+  border: 5px solid mediumpurple;
+  border-left-width: medium;
+  border-right-width: medium;
+  border-radius: 10px;
+}
+
+a {
+  color: dimgrey;
+}
+
+li
+  {
+  list-style-type: square;
+  }

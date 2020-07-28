@@ -1,0 +1,207 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Microsoft YaHei;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.title {
+  width: 100vw;
+  font-size:30pt;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.homeicon {
+    height: 30px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+.navicon {
+    height: 30px;
+    opacity: 0.8;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+nav {
+  margin-top:-30px;
+  width: 100vw;
+  background-color: darkslategrey;
+  font-size: 20pt;
+  box-shadow: 5px 0px 5px black;
+  opacity: 0.8;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 2vw;
+  color: black;
+}
+
+nav ul li {
+  display: inline-block;
+
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+nav li:hover {
+  background-color: black;
+  transition: 1000ms;
+}
+
+.submenu{
+  display: none;
+  position: absolute;
+}
+
+.subnav {
+margin-left: -40px;
+margin-right: 70px;
+
+}
+
+ul li:hover .submenu {
+  display: block;
+  width: 100vw;
+  margin: 0px;
+  background-color: darkgray;
+  transition: 1000ms;
+  opacity: 0.9;
+}
+
+
+
+.contactbutton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: lightgrey;
+  font-size: 20pt;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 5px black;
+}
+
+.contactbutton:hover {
+  background-color: darkgrey;
+  box-shadow: inset 0px 4px 5px black;
+  transition: 0.5s;
+}
+
+article {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgb(1,1,1,0.3);
+  width: 50%;
+  padding-bottom: 100px;
+  box-shadow: 10px 10px 10px black;
+  color: white;
+  border-bottom: 1px solid rgb(105,105,105,0.4);
+  font-weight: bold;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 75px;
+}
+
+.gallery {
+  display: inline-block;
+  height: 250px;
+  border-radius: 10px;
+  transition: transform 0.8s;
+}
+
+.gallery:hover {
+  transform: scale(1.5, 1.5);
+}
+
+
+.backtotop {
+  display: box;
+  bottom: 0px;
+  left: 50%;
+  right: auto;
+  margin: 0 auto;
+  position: fixed;
+  text-decoration: none;
+  background-color: darkgrey;
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+}
+
+form {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: lightgray;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 5px 0px 5px black;
+  border-radius:10px;
+  opacity:0.9;
+}
+
+label{
+  display: block;
+  padding-top: 20px;
+}
+
+.formbutton {
+  background-color: slategrey;
+  font-size: 20pt;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 5px black;}
+
+.formbutton:hover {
+  background-color: darkgrey;
+  box-shadow: inset 0px 4px 5px black;
+  transition: 0.5s;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

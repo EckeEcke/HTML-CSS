@@ -1,0 +1,173 @@
+html {
+  font-family: Helvetica;
+  color: midnightblue;
+}
+
+header {
+  display: block;
+  padding-top: 2px;
+  height: 2vw;
+  background-color: white;
+  font-size: 18pt;
+  width: 100vw;
+}
+
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 0px;
+  text-align: center;
+  width: 300px;
+  padding: 0px;
+  text-align: center;
+
+}
+
+header:hover{
+  display: block;
+  height: 7vw;
+  background-color: white;
+}
+
+.dropdown {
+  display: none;
+  font-size: 14pt;
+  position: absolute;
+}
+
+
+
+header:hover nav {
+  display:block;
+
+}
+
+header:hover .dropdown {
+  display: block;
+  margin: 5px 0px;
+  width: 300px;
+  padding: 0px;
+}
+
+header:hover .topnav {
+  text-decoration: underline;
+}
+
+.topnav:hover {
+  background: lightsteelblue;
+}
+
+.submenu:hover {
+  text-decoration: underline;
+  transition: 200ms;
+  background-color: lightsteelblue;
+}
+
+.submenu {
+  cursor: pointer;
+}
+
+.topnav {
+  cursor: pointer;
+}
+
+
+body {
+  background-image:
+  linear-gradient(to bottom, rgba(30, 139, 195, 0.5), rgba(255, 255, 255, 1)),
+  url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+  padding:0px;
+  margin: 0px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: white;
+  height: 5vw;
+  bottom: 0;
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 0px -10px 10px lightgrey;
+}
+
+footer ul {
+  padding: 30px 0px;
+  margin: 0px;
+}
+
+footer ul li {
+  display: inline-block;
+  width: 150px;
+}
+
+
+
+article {
+  background-color: white;
+  width: 40vw;
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.picture {
+  width: 200px;
+  float: right;
+}
+
+.picture:hover {
+  transform: scale(3.0, 3.0);
+  transition: 700ms;
+}
+
+
+
+.icons img{
+  width: 150px;
+}
+
+.icons figcaption{
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 20px;
+}
+
+.icons {
+  margin-top: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.icons a{
+  text-decoration: none;
+  color: black;
+}
+
+.backgroundlayer{
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(65, 105, 225, 0.5), rgba(255, 255, 255, 1));
+
+}

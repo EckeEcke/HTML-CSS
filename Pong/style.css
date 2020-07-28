@@ -1,0 +1,19 @@
+body {
+  background-image: url("explosion.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 40;
+  font-weight: bold;
+  color: white;
+}
+
+canvas {
+  display: block;
+  margin: -400px auto 0px auto;
+  padding-top: -100px;
+}
+
+.scoreboard {
+  margin-left: 150px;
+  margin-top: 200px;
+}
